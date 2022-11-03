@@ -23,8 +23,8 @@ main{
 p{
     font-family: 'Impact', monospace;
     display: inline-block;
-background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
-    background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);    
+background: linear-gradient(90deg, #40E0D0, #FF8C00 30%, #FF0080);
+    background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00 30%, #FF0080);    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
