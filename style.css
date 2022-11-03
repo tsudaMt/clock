@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #ffffff;
+    font-family: 'Impact', monospace;
     display: grid;                
     grid-template-columns: 100vw;  
     grid-template-rows: 100vh;      
@@ -19,12 +19,6 @@ main{
  
     font-size: 18vw;
 }
-p{
-    font-family: 'Impact', monospace;
-    display: inline-block;
-   color:#ffa07a 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 
