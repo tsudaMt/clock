@@ -6,14 +6,24 @@
 }
 
 body{
-    display: grid;                  /* CSSグリッド */
-    grid-template-columns: 100vw;   /* ビューポート幅最大 */
-    grid-template-rows: 100vh;      /* ビューポート高さ最大 */
+    background-color: #00000;
+    display: grid;                
+    grid-template-columns: 100vw;  
+    grid-template-rows: 100vh;      
+    
 }
  
 main{
-    justify-self: center;   /* 横方向中央揃え */
-    align-self: center;     /* 縦方向中央揃え */
+    justify-self: center; 
+    align-self: center; 
  
     font-size: 18vw;
+}
+p{
+    font-family: 'Impact', monospace;
+    display: inline-block;
+    background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
+    background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
